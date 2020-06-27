@@ -8,3 +8,4 @@ torchvision
 sklearn
 pillow
 pybm3d
+editDistance
