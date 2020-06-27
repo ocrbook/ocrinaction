@@ -1,6 +1,7 @@
 # -*- coding: UTF-8 -*-
 import cv2
 import numpy as np
+
 im = cv2.imread('../picture/hough.png')
 edges = cv2.Canny(im, 50, 150, apertureSize=3)
 result = im.copy()

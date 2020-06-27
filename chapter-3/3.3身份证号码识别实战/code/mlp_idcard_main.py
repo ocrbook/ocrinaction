@@ -43,6 +43,7 @@ def verticle_projection(thresh1):
         roi_list.append(roiImg)
     return roi_list
 
+
 # 将二值化后的数组转化成网格特征统计图
 
 
@@ -57,7 +58,7 @@ def get_features(array):
             offset_x = y * 4
             # 统计每个区域的1的值
             sum_temp = array[0 + offset_y:4 +
-                             offset_y, 0 + offset_x:4 + offset_x]
+                                          offset_y, 0 + offset_x:4 + offset_x]
             temp.append(sum(sum(sum_temp)))
         data.append(temp)
     return np.asarray(data)

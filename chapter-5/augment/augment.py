@@ -4,7 +4,6 @@ import numpy as np
 import sys
 import os
 
-
 if sys.version_info.major == 2:
     print("python2 excute")
 elif sys.version_info.major == 3:

@@ -21,7 +21,7 @@ image_x = signal.convolve2d(image, suanzi_x)
 # 得到y方向矩阵
 image_y = signal.convolve2d(image, suanzi_y)
 # 得到梯度矩阵
-image_xy = np.sqrt(image_x**2 + image_y**2)
+image_xy = np.sqrt(image_x ** 2 + image_y ** 2)
 # 梯度矩阵统一到0-255
 image_xy = (255.0 / image_xy.max()) * image_xy
 # 保存图像
