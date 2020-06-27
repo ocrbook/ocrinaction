@@ -7,3 +7,4 @@ opencv-python
 torchvision
 sklearn
 pillow
+pybm3d
