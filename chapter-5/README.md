@@ -14,6 +14,7 @@
   - [5、Synthtext仿真数据](#5synthtext仿真数据)
   - [6、中文文档文字识别](#6中文文档文字识别)
   - [7.一些字体](#7一些字体)
+  - [8.一些语料](#8一些语料)
 
 除此之外，这里罗列补充一些数据集方便大家下载使用。
 ## 一些好用的OCR数据集
@@ -58,3 +59,8 @@
 ### 7.一些字体
 - **字体简介**:一些能用的字体,用于生成识别仿真数据。
 - 链接: https://pan.baidu.com/s/1oir-3obLlBxvEA50cBTjSw 提取码: v9c4
+
+### 8.一些语料
+- 简介：在识别阶段需要一些语料，这里选用wiki百科和新闻数据集作为语料库。
+- 链接1：http://p3gr9bd3t.bkt.clouddn.com/corpus.zhwiki.simplified.txt
+- 链接2：http://p3gr9bd3t.bkt.clouddn.com/corpus.zhwiki.simplified.txt
