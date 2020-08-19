@@ -9,6 +9,7 @@
 - [一些好用的OCR数据集](#一些好用的ocr数据集)
   - [1、ICDAR2017-RCTW-17](#1icdar2017-rctw-17)
   - [2、ICDAR2019-LSVT](#2icdar2019-lsvt)
+  - [3、Synthtext仿真数据](#3synthtext仿真数据)
   - [4、中文文档文字识别](#4中文文档文字识别)
   - [5.一些字体](#5一些字体)
 
@@ -28,10 +29,16 @@
   - ![](./images/LSVT_unlabeled.jpg)
 - 下载地址：https://pan.baidu.com/s/13iDBtyKYE37qM9MPm13AvA 提取码: u6td
 
+### 3、Synthtext仿真数据
+- 数据源:
+- 数据集介绍：是由Synthtext仿真程序生成
+- 下载地址：http://www.robots.ox.ac.uk/~vgg/data/scenetext/SynthText.zip
+
 ### 4、中文文档文字识别
 - 数据类型：识别类数据
+- 数据介绍：主要生成280X32尺寸大小的灰度图片，用于识别，增加了各种仿射变换和特效
 - 数据源：https://github.com/YCG09/chinese_ocr  
-- 链接: https://pan.baidu.com/s/1CnrVVPbKsl18Nc9J1PER9A 提取码: q7ft
+- 链接: https://pan.baidu.com/s/1oFHbfUTC6CQbqjgxOe3IAQ 提取码: gyux
 
 ### 5.一些字体
 - **字体简介**:一些能用的字体.
