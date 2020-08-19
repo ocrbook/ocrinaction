@@ -1,0 +1,9 @@
+pygame
+freetype-py
+pillow
+numpy
+matplotlib
+networkx
+h5py
+scipy
+wget
