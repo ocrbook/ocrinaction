@@ -103,7 +103,7 @@ def ctc_loss(params, seq, blank=0, is_prob=True):
         return -llForward, grad, True
 
 
-grad = params - grad / (params * absum)
+grad = params - grad / (params*params * absum)
 
 return -llForward, grad, False
 
