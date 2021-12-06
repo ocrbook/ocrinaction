@@ -6,9 +6,9 @@ from skimage import measure
 from skimage.io import imread
 from matplotlib.pyplot import cm
 
-img = np.float32(imread('lena512.bmp'))
+img = np.float32(imread('img/lena512.bmp'))
 img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY) / 255
-noisy_img = np.float32(imread('lena_noise.bmp'))
+noisy_img = np.float32(imread('img/lena_noise.bmp'))
 noisy_img = cv2.cvtColor(noisy_img, cv2.COLOR_BGR2GRAY) / 255
 
 # 高斯滤波
