@@ -37,7 +37,7 @@ pip install -r requirements.txt
 ### 准备数据
 
 数据我们已经为大家转好格式，下载下来之后，解压放到`datasets`目录即可。
-数据下载: [百度云盘]() 
+数据下载: [百度云盘](https://pan.baidu.com/s/1Yjqkv_wGvNK5UuBVKcSQeQ )   提取码: cavs 
 
 
 
