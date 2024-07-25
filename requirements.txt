@@ -1,7 +1,7 @@
 matplotlib==3.2.1  
 numpy==1.14.3
 ConfigArgParse==1.2
-torch==1.1.0
+torch==2.2.0
 tqdm==4.45.0
 opencv-python
 torchvision
